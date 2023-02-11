@@ -1,0 +1,17 @@
+
+
+Post::create([
+    'title' => 'Judul satu',
+    'slug' => 'judul-kempat',
+    'excerpt' => 'ipsum dolo sit amet consectetur, adipisicing elit. Sunt aut nesciunt, doloremque ipsum consequatur aliquid nulla maiores quo nam suscipit laborum. Quidem culpa perferendis vero ad eligendi quas quaerat explicabo,',
+    'body' => '<p>ipsum dolor sit amet consectetur, adipisicing elit. Sunt aut nesciunt, doloremque ipsum consequatur aliquid nulla maiores quo nam suscipit laborum. Quidem culpa perferendis vero ad eligendi quas quaerat explicabo, ut impedit libero,</p><p> nemo repudiandae ullam voluptatem reprehenderit aliquam minima ipsum distinctio blanditiis in aut? Quo iure distinctio fugiat! Dolor, rerum! Nisi esse error nemo quidem vitae hic. Illo doloremque rem sapiente repudiandae expedita autem inventore iusto reprehenderit blanditiis magnam eligendi suscipit dolore labore itaque dolor atque earum vero cupiditate quasi,</p><p> temporibus eaque sed nisi! Vitae amet provident veniam autem nostrum, unde, culpa molestias, ratione blanditiis molestiae rem enim fuga inventore error nam? Possimus molestiae voluptates iusto ratione debitis rerum hic earum facilis, dolorum accusantium vel tempore, ducimus voluptate repellat perspiciatis? Amet voluptatibus quo nulla quaerat, magnam autem similique dolorum officia numquam odio, totam quos atque. Omnis esse sit ipsa. Dicta commodi quis libero perspiciatis tempora, aut laudantium voluptate numquam.</p>'
+]);
+
+Post::create([
+    'title' => 'judul tiga',
+    'category_id' => 2,
+    'slug' => 'judul-ketiga',
+    'excerpt' => 'ipsum dolo sit amet consectetur, adipisicing elit. Sunt aut nesciunt, doloremque ipsum consequatur aliquid nulla maiores quo nam suscipit laborum. Quidem culpa perferendis vero ad eligendi quas quaerat explicabo,',
+    'body' => '<p>ipsum dolor sit amet consectetur, adipisicing elit. Sunt aut nesciunt, doloremque ipsum consequatur aliquid nulla maiores quo nam suscipit laborum. Quidem culpa perferendis vero ad eligendi quas quaerat explicabo, ut impedit libero,</p><p> nemo repudiandae ullam voluptatem reprehenderit aliquam minima ipsum distinctio blanditiis in aut? Quo iure distinctio fugiat! Dolor, rerum! Nisi esse error nemo quidem vitae hic. Illo doloremque rem sapiente repudiandae expedita autem inventore iusto reprehenderit blanditiis magnam eligendi suscipit dolore labore itaque dolor atque earum vero cupiditate quasi,</p><p> temporibus eaque sed nisi! Vitae amet provident veniam autem nostrum, unde, culpa molestias, ratione blanditiis molestiae rem enim fuga inventore error nam? Possimus molestiae voluptates iusto ratione debitis rerum hic earum facilis, dolorum accusantium vel tempore, ducimus voluptate repellat perspiciatis? Amet voluptatibus quo nulla quaerat, magnam autem similique dolorum officia numquam odio, totam quos atque. Omnis esse sit ipsa. Dicta commodi quis libero perspiciatis tempora, aut laudantium voluptate numquam.</p>',
+])
+
